@@ -1,0 +1,87 @@
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav:before, .nav:after {
+  display: table;
+  content: " ";
+}
+.nav:after {
+  clear: both;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav.nav-tabs {
+  border-bottom: 2px solid #DDD;
+}
+.nav.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav.nav-tabs > li > a {
+  margin-right: 2px;
+  color: rgba(0, 0, 0, 0.522);
+  font-weight: 500;
+  font-size: 14px;
+}
+.nav.nav-tabs > li > a:after {
+  content: "";
+  background: #3f51b5;
+  height: 2px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  transition: all 250ms ease 0s;
+  transform: scale(0);
+}
+.nav.nav-tabs > li.active > a,
+.nav.nav-tabs > li > a:hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+.nav.nav-tabs > li.active > a:after, .nav.nav-tabs > li:hover > a:after {
+  transform: scale(1);
+}
+
+.tab-content {
+  padding: 15px;
+}
+.tab-content > .tab-pane {
+  display: none;
+}
+.tab-content > .active {
+  display: block;
+}
+
+.cron-editor-material-control {
+  padding: 10px 0;
+  font-size: 16px;
+  border-width: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  margin-bottom: 1px;
+  outline: none;
+}
+.cron-editor-material-control:not([disabled]):hover, .cron-editor-material-control:not([disabled]):focus {
+  margin-bottom: 0;
+  border-bottom-width: 2px;
+}
+.cron-editor-material-control:not([disabled]):hover {
+  border-bottom-color: black;
+}
+.cron-editor-material-control:not([disabled]):focus {
+  border-bottom-color: #3f51b5;
+}
+
+.advanced-cron-editor-label {
+  font-weight: 400 !important;
+}
+
+/*# sourceMappingURL=cron-editor-material-style.css.map */

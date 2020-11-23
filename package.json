@@ -1,0 +1,32 @@
+{
+  "name": "cron-editor-material-style",
+  "version": "1.0.0",
+  "description": "Material design styles for cron-editor",
+  "scripts": {
+    "build": "sass scss/index.scss css/cron-editor-material-style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Stanislav Burdukowsky",
+    "email": "burdukowskystas@gmail.com",
+    "url": "https://burdukowsky.tk"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/burdukowsky/cron-editor-material-style"
+  },
+  "bugs": {
+    "url": "https://github.com/burdukowsky/cron-editor-material-style/issues"
+  },
+  "homepage": "https://github.com/burdukowsky/cron-editor-material-style",
+  "keywords": [
+    "angular",
+    "cron-editor",
+    "material",
+    "material design"
+  ],
+  "devDependencies": {
+    "sass": "^1.29.0"
+  }
+}
