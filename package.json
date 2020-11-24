@@ -1,6 +1,6 @@
 {
   "name": "cron-editor-material-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Material design styles for cron-editor",
   "scripts": {
     "build": "sass scss/index.scss css/cron-editor-material-style.css",
